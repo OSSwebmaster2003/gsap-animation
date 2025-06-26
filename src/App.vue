@@ -1,9 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Navbar from "./components/Navbar.vue";
+</script>
 
 <template>
-  <div class="flex-center h-[100vh]">
-    <h1 class="text-3xl text-indigo-300">Hello, GSAP</h1>
-  </div>
+  <main>
+    <Navbar />
+  </main>
 </template>
 
 <style scoped></style>
